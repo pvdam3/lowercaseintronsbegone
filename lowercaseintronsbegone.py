@@ -13,6 +13,7 @@ for line in handle.readlines():
 				## only add uppercase letters to the output string:
 				output+= letter
 		output+='\n'
+handle.close()
 
 with open(outfile, 'w') as writer:
  	writer.write(output)
